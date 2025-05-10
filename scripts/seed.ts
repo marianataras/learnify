@@ -5,46 +5,62 @@ async function main() {
   try {
     const categories = [
       {
-        name: "IT-технології",
+        name: "Особистий розвиток",
         subCategories: {
           create: [
-            { name: "Web Development" },
-            { name: "Data Science" },
-            { name: "Cybersecurity" },
+            { name: "Тайм-менеджмент і продуктивність" },
+            { name: "Публічні виступи та комунікація" },
+            { name: "Лідерство і самоменеджмент" },
+            { name: "Психологія та ментальне здоров’я" },
             { name: "Others" },
           ],
         },
       },
       {
-        name: "Бізнес",
+        name: "Креативність та дизайн",
         subCategories: {
           create: [
-            { name: "E-Commerce" },
-            { name: "Marketing" },
-            { name: "Finance" },
+            { name: "Графічний дизайн" },
+            { name: "UI/UX-дизайн" },
+            { name: "Музика та звукозапис" },
+            { name: "Фото- та відеомистецтво" },
             { name: "Others" },
           ],
         },
       },
       {
-        name: "Дизайн",
+        name: "Бізнес та підприємництво",
         subCategories: {
           create: [
-            { name: "Graphic Design" },
-            { name: "3D & Animation" },
-            { name: "Interior Design" },
+            { name: "Маркетинг і реклама" },
+            { name: "Фінансова грамотність" },
+            { name: "Управління проєктами" },
+            { name: "Створення стартапів" },
             { name: "Others" },
           ],
         },
       },
       {
-        name: "Здоров'я",
+        name: "Технології та програмування",
         subCategories: {
           create: [
-            { name: "Fitness" },
-            { name: "Yoga" },
-            { name: "Nutrition" },
-            { name: "Others" },
+            { name: "Веброзробка (HTML, CSS, JavaScript, фреймворки)" },
+            { name: "Мобільна розробка (iOS, Android, Flutter)" },
+            { name: "Штучний інтелект та машинне навчання" },
+            { name: "Бази даних та DevOps" },
+            { name: "Інше" },
+          ],
+        },
+      },
+      {
+        name: "Освіта та наука",
+        subCategories: {
+          create: [
+            { name: "Математика" },
+            { name: "Природничі науки (фізика, біологія, хімія)" },
+            { name: "Гуманітарні науки (історія, філософія, література)" },
+            { name: "Іноземні мови" },
+            { name: "Інше" },
           ],
         },
       },
