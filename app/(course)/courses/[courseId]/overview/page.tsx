@@ -64,7 +64,7 @@ const CourseOverview = async ({ params }: { params: { courseId: string } }) => {
 
       <div className="flex gap-2">
         <p className="font-bold">Вартість:</p>
-        <p>{course.price} $</p>
+        <p>{course.price} UAH</p>
       </div>
 
       <div className="flex gap-2">
