@@ -38,7 +38,7 @@ export const POST = async (
       {
         quantity: 1,
         price_data: {
-          currency: "usd",
+          currency: "uah",
           product_data: {
             name: course.title,
           },
